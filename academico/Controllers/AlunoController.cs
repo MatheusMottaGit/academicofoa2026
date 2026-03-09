@@ -7,6 +7,7 @@ namespace academico.Controllers
     {
         private static List<Aluno> alunos = new List<Aluno>();
         private static List<Aluno> alunos2 = new List<Aluno>();
+        private static List<Aluno> alunos3 = new List<Aluno>();
         public IActionResult Create()
         {
             return View();
