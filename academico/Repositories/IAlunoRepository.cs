@@ -2,7 +2,7 @@
 
 namespace academico.Repositories
 {
-    public interface IAluunoRepository
+    public interface IAlunoRepository
     {
         Task<IEnumerable<Aluno>> GetAll(CancellationToken cancellationToken = default);
         Task<Aluno?> GetById(CancellationToken cancellationToken = default);
